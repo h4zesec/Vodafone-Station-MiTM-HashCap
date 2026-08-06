@@ -22,19 +22,19 @@ The PoC monitors HTTP traffic in a controlled environment and extracts session-r
 Install dependencies:
 
 ```bash
-pip install scapy
+pip3 install scapy
 ```
 
 ## Usage
 
 ```bash
-doas python3 vodafone_poc.py [interface] [router_ip]
+doas python3 main.py [ interface ] [ router ]
 ```
 
 Example:
 
 ```bash
-doas python3 vodafone_poc.py eth0 192.168.0.1
+doas python3 main.py enp7s0 192.168.0.1
 ```
 
 ## Example Output
