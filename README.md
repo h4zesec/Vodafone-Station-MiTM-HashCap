@@ -70,7 +70,6 @@ It can identify:
 
 ## Limitations
 
-- Only works with HTTP-based router interfaces
 - Requires visibility of the target traffic
 - Does not bypass encryption
 - Does not exploit vulnerabilities automatically
